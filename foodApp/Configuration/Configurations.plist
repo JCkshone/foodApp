@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Configuration.plist
+   NasaApp
+
+   Created by Juan Camilo on 12/09/20.
+   Copyright (c) 2020 Juan Camilo. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Production</key>
+        <dict>
+            <key>BASE_URL</key>
+            <string></string>
+        </dict>
+        <key>Development</key>
+        <dict>
+            <key>BASE_URL</key>
+            <string>https://api.nasa.gov/planetary/apod</string>
+            <key>PUBLIC_KEY</key>
+            <string>nMRF4cjDOsnDWnu5kpS2fFp5MvTNmUvXOCcg4NGy</string>
+        </dict>
+    </dict>
+</plist>
